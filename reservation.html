@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi Kamar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Buat Reservasi</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="search.html">Cek Ketersediaan</a>
+            <a href="details.html">Detail Kamar</a>
+            <a href="modify.html">Ubah/Batal</a>
+        </nav>
+    </header>
+    <main>
+        <form action="reservation.php" method="POST">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Reservasi Sekarang</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hotel Amara</p>
+    </footer>
+</body>
+</html>
